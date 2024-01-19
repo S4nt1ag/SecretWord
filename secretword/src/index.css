@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system;
+  /* background-color: #d8d5d5; */
+  background-image: url('./assets/paperBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
