@@ -13,12 +13,15 @@ const stages = [
 
 function App() {
 
-  const [gameStage, setGameStage] = useState(stages[0].name)
-  const [words] = useState(wordsList)
+  const [gameStage, setGameStage] = useState(stages[0].name);
+  const [words] = useState(wordsList);
 
-  const [pickedWord, setPickedWord] = useState('')
-  const [pickedCategory, setPickedCategory] = useState('')
-  const [letters, setLetters] = useState([])
+  const [pickedWord, setPickedWord] = useState('');
+  const [pickedCategory, setPickedCategory] = useState('');
+  const [letters, setLetters] = useState([]);
+  const [guessedLetters, setGuessedLetters] = useState([]);
+  const [wrongLetters, setWrongLetters] = useState([]);
+  
 
   const PickWordAndCategory = () => {
     const categories = Object.keys(words);
