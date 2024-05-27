@@ -30,7 +30,7 @@ const Game = ({
       </p>
       <h1>Advinhe a palavra:</h1>
       <h3 className="tip">
-        Dica sore a palavra: <span>{pickedCategory}</span>
+        Dica sobre a palavra: <span>{pickedCategory}</span>
       </h3>
       <p>você ainda tem {guesses} tentativas(s).</p>
       <div className="wordContainer">
